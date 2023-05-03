@@ -1,0 +1,23 @@
+.card-image {
+    height: 12rem;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.card-content {
+    height: 15rem;
+    margin-top: 1rem;
+    
+    span {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}

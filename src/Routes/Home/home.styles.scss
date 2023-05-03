@@ -1,0 +1,112 @@
+.home-overlay {
+    position: absolute;
+    height: 37rem;
+    width: 100vw;
+    z-index: 1;
+    background-color: #339966;
+    opacity: 0.8;
+  }
+  
+  .home-container {
+    height: 37rem;
+    background-image: url('https://npf-prod.imgix.net/uploads/yosemitenp_kyle_yates_istock.jpg?auto=compress%2Cformat&fit=max&q=80&w=1600');
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-filter-container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 40rem;
+  
+    span {
+      display: block;
+      font-size: 3rem;
+      color: white;
+    }
+  
+    p {
+      color: white;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .search-for-national-park, .select-state {
+      display :block;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background-color: white;
+    }
+  
+    #clear-filter {
+      margin-top: 2rem;
+      text-decoration: underline;
+      color: white;
+      font-size: 1rem;
+    }
+  }
+  
+  .search-placeholder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    span {
+      font-size: 1rem;
+      color: #323232;
+      margin: 0;
+    }
+  }
+  
+  .home-results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+  }
+
+  .home-results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(autofill, 1fr);
+    gap: 3rem;
+    width: 60rem;
+  }
+
+  .selected {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+  }
+
+  .deselected {
+    text-decoration: none;
+  }
+
+  .home-results-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+    button {
+        color: #339966;
+        background: none;
+        border: none;
+        font-size: 1rem;
+    }
+  }
+
+  #next {
+    margin-left: 0.25rem;
+  }
+
+  #prev {
+    margin-right: 0.25rem;
+  }
