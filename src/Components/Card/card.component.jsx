@@ -1,6 +1,7 @@
 import './card.styles.scss';
 
 const Card = ({ image, name, description }) => {
+    
     return (
         <div className='card-container'>
             <div className='card-image'>

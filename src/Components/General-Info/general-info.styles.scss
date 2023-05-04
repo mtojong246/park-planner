@@ -1,0 +1,30 @@
+.general-info-container {
+    margin-top: 3rem;
+    width: 60rem;
+}
+
+.general-info {
+    span {
+        font-size: 2.5rem;
+    }
+}
+
+.contact-container, .entrance-fees-container, .entrance-passes-container, .hours-of-operation-container {
+    margin: 3rem 0;
+
+    span {
+        font-size: 2rem;
+    }
+    
+    p {
+        margin: 0;
+    }
+}
+
+.address, .entrance-fees, .entrance-passes, .hours-description, .standard-hours {
+    margin: 1rem 0;
+}
+
+.fee-title, .pass-title {
+    font-size: 1.5rem;
+}

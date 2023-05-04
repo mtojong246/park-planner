@@ -42,12 +42,20 @@
       border-radius: 0.5rem;
       background-color: white;
     }
+
+    .search-for-national-park:hover, .select-state:hover {
+      cursor: pointer;
+    }
   
     #clear-filter {
       margin-top: 2rem;
       text-decoration: underline;
       color: white;
       font-size: 1rem;
+    }
+
+    #clear-filter:hover {
+      cursor: pointer;
     }
   }
   
@@ -101,6 +109,10 @@
         border: none;
         font-size: 1rem;
     }
+
+    button:hover {
+      cursor: pointer;
+    }
   }
 
   #next {
@@ -110,3 +122,15 @@
   #prev {
     margin-right: 0.25rem;
   }
+
+  .search-dropdown-container {
+    position: absolute;
+    width: 100%;
+    top: 11.5rem;
+}
+
+.state-dropdown-container {
+  position: absolute;
+    width: 100%;
+    top: 17rem;
+}

@@ -12,12 +12,33 @@
 .card-content {
     height: 15rem;
     margin-top: 1rem;
+    color: #323232;
     
     span {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.card-container:hover {
+    cursor: pointer;
+
+    .card-content {
+        span {
+            color: #339966;
+        }
     }
 }

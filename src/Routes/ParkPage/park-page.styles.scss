@@ -1,0 +1,48 @@
+.park-image-overlay {
+    position: absolute;
+    height: 37rem;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0.8;
+}
+
+.park-image-container {
+    height: 37rem;
+    background-size: cover;
+    background-position: 50% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    span {
+        font-size: 3.5rem;
+        color: white;
+        margin-bottom: 1.5rem;
+        padding: 0 5rem;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+}
+
+
+.park-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.park-description-container {
+    width: 60rem;
+}
+
+.park-description-container {
+    p {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+}
+
